@@ -22,7 +22,7 @@
 //	char sex[5];
 //}Stu;
 //int main() {
-//	Stu s = { "李四",40,"4454656546","男" };
+//	Stu s = { "脌卯脣脛",40,"4454656546","脛脨" };
 //	printf("%s", s.name);
 //	return 0;
 //}
@@ -35,6 +35,7 @@ typedef struct Stu {
 	char sex[20];
 }Stu;
 int main() {
-	Stu s = { "李四",40,"454646","男" };
+	Stu s = { "脌卯脣脛",40,"454646","脛脨" };
+	printf("%s", s.sex);
 	printf("%s", s.sex);
 }
